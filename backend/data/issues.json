@@ -1,0 +1,98 @@
+[
+  {
+    "device": "phone",
+    "keywords": ["phone", "iphone", "android", "smartphone", "mobile", "screen", "display", "battery", "charge", "charging", "flicker", "touch", "responsive"],
+    "diagnosis": "Phone display or power supply issue",
+    "fixes": [
+      "Check charging cable and adapter for damage",
+      "Force restart the device (hold power + volume down)",
+      "Check for software updates in settings",
+      "Test in safe mode to rule out third-party apps",
+      "Inspect for physical damage to screen or ports",
+      "Try a different charger and cable",
+      "Clean charging port with compressed air"
+    ],
+    "difficulty": "easy",
+    "category": "electronics"
+  },
+  {
+    "device": "laptop",
+    "keywords": ["laptop", "notebook", "computer", "pc", "slow", "overheat", "overheating", "fan", "noise", "boot", "startup", "keyboard", "trackpad"],
+    "diagnosis": "Laptop performance or cooling system issue",
+    "fixes": [
+      "Check power adapter connection and battery indicator",
+      "Clean air vents and fans to prevent overheating",
+      "Run disk cleanup and defragmentation utilities",
+      "Update graphics and chipset drivers",
+      "Scan for malware and viruses",
+      "Check Task Manager for resource-heavy processes",
+      "Consider adding more RAM if consistently slow"
+    ],
+    "difficulty": "medium",
+    "category": "electronics"
+  },
+  {
+    "device": "refrigerator",
+    "keywords": ["fridge", "refrigerator", "freezer", "cooling", "cold", "ice", "warm", "temperature", "defrost", "compressor"],
+    "diagnosis": "Refrigerator cooling system malfunction",
+    "fixes": [
+      "Check if refrigerator is plugged in and outlet has power",
+      "Clean condenser coils at the back (unplug first)",
+      "Ensure thermostat is set correctly (37-40°F for fridge, 0°F for freezer)",
+      "Check for blocked air vents inside the unit",
+      "Listen for compressor sounds - silence may indicate motor failure",
+      "Inspect door seals for gaps or damage",
+      "Defrost if ice buildup is excessive"
+    ],
+    "difficulty": "medium",
+    "category": "appliance"
+  },
+  {
+    "device": "washing machine",
+    "keywords": ["washing", "washer", "laundry", "spin", "drain", "leak", "leaking", "water", "vibrate", "noise", "agitator"],
+    "diagnosis": "Washing machine drainage or balance issue",
+    "fixes": [
+      "Check drain hose for kinks, clogs, or blockages",
+      "Clean the filter/lint trap (usually behind small panel)",
+      "Ensure machine is level - adjust feet if necessary",
+      "Check water supply valves are fully open",
+      "Inspect for error codes on digital display",
+      "Redistribute laundry for balanced load",
+      "Check pump for obstructions"
+    ],
+    "difficulty": "easy",
+    "category": "appliance"
+  },
+  {
+    "device": "microwave",
+    "keywords": ["microwave", "oven", "heat", "warm", "spark", "sparking", "turntable", "rotate", "button", "keypad"],
+    "diagnosis": "Microwave heating element or power supply problem",
+    "fixes": [
+      "Check power cord and outlet with another device",
+      "Ensure door closes completely and safety latch engages",
+      "Test with a cup of water for 1 minute (should get warm)",
+      "Listen for unusual humming or clicking noises",
+      "Check interior for food splatter causing arcing",
+      "Inspect turntable motor and roller guide",
+      "Test keypad with different buttons"
+    ],
+    "difficulty": "medium",
+    "category": "appliance"
+  },
+  {
+    "device": "air conditioner",
+    "keywords": ["ac", "air conditioner", "cooling", "cold", "fan", "blower", "thermostat", "filter", "freon", "condenser"],
+    "diagnosis": "Air conditioner cooling or airflow problem",
+    "fixes": [
+      "Check thermostat settings and replace batteries if needed",
+      "Clean or replace air filters (clogged filters reduce airflow)",
+      "Ensure outdoor unit is clear of leaves and debris",
+      "Listen for unusual compressor or fan motor noises",
+      "Check for ice buildup on evaporator coils",
+      "Inspect ductwork for leaks or obstructions",
+      "Verify circuit breaker hasn't tripped"
+    ],
+    "difficulty": "medium",
+    "category": "hvac"
+  }
+]
