@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import json, os
 
 app = FastAPI()
@@ -15,3 +16,11 @@ def home():
 @app.get("/issues")
 def get_issues():
     return ISSUES
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
