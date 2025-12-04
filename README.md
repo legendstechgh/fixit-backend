@@ -113,7 +113,7 @@ Or use Live Server (Recommended).
 
 # 🌍 **Deploying Backend (FastAPI)**
 
-### ⭐ Render.com **
+### ⭐ **Render.com**
 
 1. Create new “Web Service"
 2. Runtime → Python
